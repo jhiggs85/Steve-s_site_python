@@ -15,6 +15,13 @@ def about():
 def background():
     return render_template('background.html')
 
+@app.route('/contact')
+def contact():
+    return render_template('contact.html')
+
+@app.route('/sample')
+def sample():
+    return  render_template('sample.html')
 
 if __name__ == '__main__':
     app.run(debug=True)
