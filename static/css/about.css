@@ -1,20 +1,12 @@
 body {
     background-color: #99ffcc;
 }
-
-
 .links {
     float: right;
     margin: 5px 0px;
-    padding-right: 33%;
+    padding-right: 40%;
     color: #ffffff;
     letter-spacing: 1px;
-}
-
-h2 {
-    font-size: 18px;
-    margin: -20px -500px 20px;
-    padding: 0px 500px 0px;
 }
 
 img {
@@ -44,4 +36,10 @@ p {
     margin: 50px 50px 50px 300px;
     float: left;
     border-radius: 10px;
+}
+
+h2 {
+    font-size: 18px;
+    margin: -20px -500px 20px;
+    padding: 0px 500px 0px;
 }
