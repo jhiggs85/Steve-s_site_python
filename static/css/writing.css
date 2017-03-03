@@ -15,7 +15,7 @@ h2 {
 img.left {
     float: left;
     vertical-align: top;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 20px;
     margin-left: 2%;
     margin-right: 1%;
@@ -48,4 +48,9 @@ p {
     margin-top: 0%;
     margin-left: 1%;
     margin-right: 10%;
+}
+
+
+.small{
+    font-size: medium;
 }
