@@ -1,1 +1,1 @@
-web: python steves_site/steves_site.py
+web: python steves_site.py
