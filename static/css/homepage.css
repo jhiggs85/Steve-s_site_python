@@ -45,3 +45,11 @@ p {
     float: left;
     border-radius: 10px;
 }
+
+.cert{
+     height: 15%;
+    width: 15%;
+    margin: 50px 50px 50px 300px;
+    float: left;
+    border-radius: 10px;
+}

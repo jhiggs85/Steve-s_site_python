@@ -38,6 +38,14 @@ p {
     border-radius: 10px;
 }
 
+.cert{
+     height: 15%;
+    width: 15%;
+    margin: 50px 50px 50px 300px;
+    float: left;
+    border-radius: 10px;
+}
+
 h2 {
     font-size: 18px;
     margin: -20px -500px 20px;
