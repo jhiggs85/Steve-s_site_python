@@ -1,47 +1,48 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Background</title>
-     <link rel="stylesheet" href="/static/css/background.css">
-</head>
-<body>
-<div class="links">
+{% extends "base.html" %}
 
-            <a href="/">Home</a>
+{% block content %}
 
-            <a href="/about">О ПЕРЕВОДЧИКЕ</a>
 
-            <a href="/sample">WRITING SAMPLE</a>
+<div class="background">
 
-            <a href="/contact">CONTACT</a>
+<p>
+    Freelance translator, editor and consultant since 2010
+     <br>
+    <br>
+    Certified as a Russian to English translator by the ATA since 2017. <a href="https://www.atanet.org/onlinedirectories/tsd_view.php?id=19764"><b>Find my listing in ATA’s online directory</b> </a>.
+     <br>
+    <br>
+    Specializes in literary and legal translation, as well as app localization. <a href="/Services"><b>the Services page for more information</b> </a>.
+     <br>
+    <br>
+    Currently serves as assistant administrator of Slavic Languages Division at the American Translators Association.
+      <br>
+    <br>
+    Currently serves as associate editor of SlavFile, the publication of the Slavic Languages Division.
+    
+
+</p>
+
 
 </div>
-<div>
 
-            <h1>Steven McGrath</h1>
-<br>
-           <h2> ATA-Certified Russian to English Translator, Iowa and Chicago Area</h2>
-            <h2>Переводы с русского на английский в Айове и Чикаго</h2>
-</div>
-<hr width="100%">
 <div class="Education">
-    <h1>
-        Education:
-    </h1>
+    <h3>
+        <b>Education:</b>
+    </h3>
     <h4>
-        2012: MA History, M. V. Lomonosov Moscow State University, Moscow, Russia
+        <b>2012: MA History, M. V. Lomonosov Moscow State University, Moscow, Russia</b>
     </h4>
     <ul>
     <li>
-       Graduated Cum Laude (4.8 out of 5)
+       Graduated Cum Laude
     </li>
         <li>
             Focused on immigration law and industrial development in the Soviet Union
         </li>
     </ul>
     <h4>
-       2009: Independent coursework in Russian to English Translation, University of Iowa, Iowa City, Iowa
+       <b>2009: Independent coursework in Russian to English Translation, University of Iowa, Iowa City, Iowa</b>
     </h4>
     <ul>
         <li>
@@ -49,51 +50,22 @@
         </li>
     </ul>
     <h4>
-        2008:   Bachelor of Arts- History and Russian, University of Northern Iowa, Cedar Falls, IA
+        <b>2008:   Bachelor of Arts- History and Russian, University of Northern Iowa, Cedar Falls, IA</b>
     </h4>
     <ul>
         <li>
-            Graduated Cum Laude (3.68 out of 4)
+            Graduated Cum Laude
         </li>
         <li>
            Included Study Abroad at KORA Center for Russian Language in Vladimir, Russia
         </li>
     </ul>
 </div>
-<div class="Experience">
-    <h1>
-        Experience:
-    </h1>
-    <h4>
-      2010-present: Freelance Russian to English translator and editor. Translations have included:
-    </h4>
-    <ul>
-        <li>
-           Official documents for visa applications
-        </li>
-        <li>
-            Company websites
-        </li>
-        <li>Journalistic and literary work<a href="/sample">(See Sample)</a></li>
-    </ul>
-    <h4>2010- 2017: English Teacher and Education Manager at schools in Moscow, Russia and Shanghai, China, including:</h4>
-    <ul>
-        <li>
-            China Rencai Finance-HR Management, Shanghai, China
-        </li>
-        <li>
-            Web International English, Shanghai, China
-        </li>
-        <li>
-            Langwe Language School (formerly Prime School), Moscow, Russia.
-        </li>
-        <li>
-            MBA City Learning Center, Moscow, Russia.
-        </li>
-        <li>
-            Lomonosov Moscow State University, Moscow, Russia
-        </li>
-    </ul>
+
+<div class="contact">
+<p>
+    <a href="/contact"><b>Contact me</b></a> if you have any questions about my background, or if you would like me to send my resume or curriculum vitae.
+</p>
+
 </div>
-</body>
-</html>
+{% endblock %}

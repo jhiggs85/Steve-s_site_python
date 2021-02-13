@@ -1,29 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Contact</title>
-    <link rel="stylesheet" href="/static/css/contact.css">
-</head>
-<body>
-<div class="links">
+{% extends "base.html" %}
 
-            <a href="/">Home</a>
-
-            <a href="/about">О ПЕРЕВОДЧИКЕ</a>
-
-            <a href="/background">BACKGROUND</a>
-
-            <a href="/sample">WRITING SAMPLE</a>
-
-</div>
-<div>
-    <h1>Steven McGrath</h1>
-<br>
-    <h2> ATA-Certified Russian to English Translator, Iowa and Chicago Area</h2>
-    <h2>Переводы с русского на английский в Айове и Чикаго</h2>
-</div>
-<hr width="100%">
+{% block content %}
 
 <div class="info">
     <h3>CELL:</h3>
@@ -41,5 +18,4 @@
 
     <p>Thank you for visiting!</p>
 </div>
-</body>
-</html>
+{% endblock %}

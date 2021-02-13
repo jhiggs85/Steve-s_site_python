@@ -1,51 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <link rel="stylesheet" href="/static/css/homepage.css">
-    <meta charset="UTF-8">
-    <title>MCGRATH TRANSLATIONS</title>
-</head>
-<body>
-<div class="links">
+{% extends "base.html" %}
+{% block content %}
 
-            <a href="/about">О ПЕРЕВОДЧИКЕ</a>
-
-            <a href="/background">BACKGROUND</a>
-
-            <a href="/sample">WRITING SAMPLE</a>
-
-            <a href="/contact">CONTACT</a>
-</div>
-<div>
-
-            <h1>Steven McGrath</h1>
-<br>
-           <h2> ATA-Certified Russian to English Translator, Iowa and Chicago Area</h2>
-            <h2>Переводы с русского на английский в Айове и Чикаго</h2>
-</div>
-<hr width="100%">
-<div class="image">
-<img src="/static/images/resize.JPG">
-</div>
 <div class="text">
-    <p>Steven McGrath is an <a href="http://www.atanet.org/">American Translators Association</a>-Certified Russian to
-
-English translator from Iowa City, Iowa. He has over five years of experience
-
-in translation. He received a Master’s degree from Lomonosov Moscow
-
-State University, Russia’s most prominent educational institution. Steven is
-
-knowledgeable about a wide range of subjects and has welcomed
-
-translation projects of many varieties, from official documents and
-
-commercial websites to works of scholarship, journalism and literature.
+    <p>Steven McGrath is an <a href="http://www.atanet.org/">American Translators Association</a>-Certified Russian to English translator from Iowa City, Iowa. 
+        He has over ten years of experience in translation. He received a Master’s degree from Lomonosov Moscow State University, Russia’s most prominent educational institution. 
+        Steven is knowledgeable about a wide range of subjects and has welcomed translation projects of many varieties, from legal documents and mobile apps to works of journalism and literature, <a href="/Books"><b>including four published books</b></a>.
+        He currently serves as assistant administrator of the ATA’s Slavic Languages Division.  If you would like to discuss a project with Steven, please see his <a href="/contact"><b>contact information</b> </a>.
     </p>
 </div>
 <div>
-    <img class="logo" src="/static/images/ATA_logo_web_ind.jpg">
-    <img class="cert" src="/static/images/E-CertStamp-533006-10.jpg">
+    <span >
+            <img class="logo" src="/static/images/ATA_logo_web_ind.jpg">
+
+    </span>
+    <span style="position:relative; top:-30px; left:-200px;">
+           <img class="cert" src="/static/images/E-CertStamp-533006-10.jpg">
+    </span>
 </div>
-</body>
-</html>
+{% endblock %}
