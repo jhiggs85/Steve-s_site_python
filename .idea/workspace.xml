@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e029fe48-5b7b-4333-b422-758400c8864f" name="Default" comment="updated html files">
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/steves_site.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/steves_site.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/background.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/background.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/steves_site.py" beforeDir="false" afterPath="$PROJECT_DIR$/steves_site.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/background.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/background.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/homepage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/sample.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/sample.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/Bini Screen.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/Bini_Screen.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/Services.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Services.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -669,9 +661,6 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initialize project" />
