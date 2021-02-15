@@ -75,11 +75,7 @@
             <a class="nav-link js-scroll-trigger" href="/sample">WRITING SAMPLE</a>
                          </li>
  {% endif %}
-     {% if Title != 'Contact' %}
-                     <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="/contact">CONTACT</a>
-                     </li>
- {% endif %}
+
      {% if Title != 'Services' %}
                      <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="/Services">SERVICES</a>
@@ -89,6 +85,11 @@
                      <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="/Books">BOOKS</a>
                          </li>
+ {% endif %}
+                    {% if Title != 'Contact' %}
+                     <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/contact">CONTACT</a>
+                     </li>
  {% endif %}
                     </ul>
 </div>
