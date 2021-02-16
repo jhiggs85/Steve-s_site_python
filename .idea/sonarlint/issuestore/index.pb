@@ -23,3 +23,15 @@ F
 static/css/contact.css,7\f\7f98e61b214fe755268ead8b211a1f9f7e2ec77b
 I
 static/css/background.css,7\b\7b7b5ddcc5152b7d46355b8f32a3ccecdbbabd70
+@
+requirements.txt,1\9\19359a61ae2446b51b549167b014da2fcf265768
+;
+runtime.txt,2\e\2ed4029984f4a6c70a541992efb31f76528bd80d
+D
+static/css/style.css,3\6\36e68d0961b94e1750624bc9e2f66c060d73b91b
+G
+static/css/homepage.css,b\b\bb7b877650995fb2a20f967a0e52f67a62bd31bd
+E
+static/css/styles.css,f\f\ff5f6247d17a4d94e3cf2aed570cdefe538f01e5
+F
+static/css/writing.css,5\2\528a0dd9a60cdfd35dbe09325e7274c8fe620ec3
