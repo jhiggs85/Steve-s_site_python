@@ -2,13 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e029fe48-5b7b-4333-b422-758400c8864f" name="Default" comment="updated html files">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/0/10c788dfaca2d81acfe4d3cde50d3b7af672a2d4" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/0/10c788dfaca2d81acfe4d3cde50d3b7af672a2d4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/8/58893e517e4076b20838ca69fba7259ba475306a" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/8/58893e517e4076b20838ca69fba7259ba475306a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/2/7215d3ed16d30eaf142413637e2d6f9bf0275184" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/2/7215d3ed16d30eaf142413637e2d6f9bf0275184" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/4/c4a075fd38b4369d6828f44c08f3a1f0fee9096b" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/4/c4a075fd38b4369d6828f44c08f3a1f0fee9096b" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/8/d8b6010e1324e4b49dbf871af72928674d1ef1dd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/8/d8b6010e1324e4b49dbf871af72928674d1ef1dd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/f/ff9f4803025789665f91c49fbab8afcf9d832268" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/f/ff9f4803025789665f91c49fbab8afcf9d832268" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/sample.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/sample.html" afterDir="false" />
     </list>
