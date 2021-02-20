@@ -5,7 +5,8 @@ app = Flask(__name__)
 csp = {
     'default-src': [
         '\'self\'',
-        'https://*'
+        'https://*',
+        'http://www.w3*'
             ],
         'img-src': '*',
         'style-src': [
