@@ -6,7 +6,7 @@ csp = {
     'default-src': [
         '\'self\'',
         'https://*',
-        'w3.org*'
+        '*.w3.org'
             ],
         'img-src': '*',
         'style-src': [
