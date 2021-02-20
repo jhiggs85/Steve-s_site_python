@@ -2,12 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e029fe48-5b7b-4333-b422-758400c8864f" name="Default" comment="updated html files">
-      <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/0/10c788dfaca2d81acfe4d3cde50d3b7af672a2d4" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/0/10c788dfaca2d81acfe4d3cde50d3b7af672a2d4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/8/58893e517e4076b20838ca69fba7259ba475306a" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/8/58893e517e4076b20838ca69fba7259ba475306a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/a/da7c237b85a69c00a9ab8c189bf63e22070fcac3" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/a/da7c237b85a69c00a9ab8c189bf63e22070fcac3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/steves_site.py" beforeDir="false" afterPath="$PROJECT_DIR$/steves_site.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
