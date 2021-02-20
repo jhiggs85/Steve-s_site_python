@@ -21,7 +21,7 @@ csp = {
         '\'unsafe-inline\'',
     ],
 }
-Talisman(app, content_security_policy=csp,content_security_policy_nonce_in=['script-src', 'style-src'])
+Talisman(app, content_security_policy=csp, content_security_policy_nonce_in=['script-src', 'style-src'])
 
 
 @app.route('/')
