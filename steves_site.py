@@ -6,7 +6,9 @@ csp = {
     'default-src': [
         '\'self\'',
         'https://*'
-    ]
+            ],
+        'img-src': '*',
+        'unsafe-inline': '*'
 }
 Talisman(app, content_security_policy=csp)
 
