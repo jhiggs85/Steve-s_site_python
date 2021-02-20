@@ -9,10 +9,12 @@ csp = {
             ],
         'img-src': '*',
         'style-src': [
-            '\'self\''
+            '\'self\'',
+            'https://*'
     ],
     'script-src': [
-        '\'self\''
+        '\'self\'',
+        'https://*'
     ],
 }
 Talisman(app, content_security_policy=csp,content_security_policy_nonce_in=['script-src', 'style-src'])
