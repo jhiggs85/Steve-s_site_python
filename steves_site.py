@@ -6,16 +6,19 @@ csp = {
     'default-src': [
         '\'self\'',
         'https://*',
-        '*.w3.org'
+        '*.w3.org',
+        '\'unsafe-inline\'',
             ],
         'img-src': '*',
         'style-src': [
             '\'self\'',
-            'https://*'
+            'https://*',
+            '\'unsafe-inline\'',
     ],
     'script-src': [
         '\'self\'',
-        'https://*'
+        'https://*',
+        '\'unsafe-inline\'',
     ],
 }
 Talisman(app, content_security_policy=csp,content_security_policy_nonce_in=['script-src', 'style-src'])
