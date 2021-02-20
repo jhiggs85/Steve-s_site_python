@@ -8,9 +8,14 @@ csp = {
         'https://*'
             ],
         'img-src': '*',
-        'unsafe-inline': '*'
+        'style-src': [
+            '\'self\''
+    ],
+    'script-src': [
+        '\'self\''
+    ],
 }
-Talisman(app, content_security_policy=csp)
+Talisman(app, content_security_policy=csp,content_security_policy_nonce_in=['script-src', 'style-src'])
 
 
 @app.route('/')
