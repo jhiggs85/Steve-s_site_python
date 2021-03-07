@@ -40,27 +40,29 @@ p {
 .logo {
     height: 15%;
     width: 15%;
-    margin: 50px 50px 50px 300px;
+   /* margin: 50px 50px 50px 300px;
     float: left;
+    */
     border-radius: 10px;
 }
 
 .cert {
      height: 15%;
     width: 15%;
+    /*
     margin: 50px 50px 50px 300px;
     float: left;
+    */
     border-radius: 10px;
 }
 
 .one {
 position:relative;
-top:15%;
+
 }
 
 
 .two {
 position:relative;
-top:2%;
-left:-15%;
+
 }
