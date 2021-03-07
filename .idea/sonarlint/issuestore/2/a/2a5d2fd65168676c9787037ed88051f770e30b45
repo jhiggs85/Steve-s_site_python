@@ -1,3 +1,5 @@
 
+vpython:S1192
+"RDefine a constant instead of duplicating this literal '\'unsafe-inline\'' 3 times.(·šÁÇøÿÿÿÿ8Ø‘Öü.
 hpython:S1192"IDefine a constant instead of duplicating this literal '\'self\'' 3 times.(ó¼ˆÖ8ÿÒ°ˆü.
-ipython:S1192"JDefine a constant instead of duplicating this literal 'https://*' 3 times.( ‘—8Ü×¾ˆü.
+npython:S1192"JDefine a constant instead of duplicating this literal 'https://*' 3 times.(ÙË¡ùüÿÿÿÿ8Ü×¾ˆü.

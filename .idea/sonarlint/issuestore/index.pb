@@ -35,3 +35,5 @@ E
 static/css/styles.css,f\f\ff5f6247d17a4d94e3cf2aed570cdefe538f01e5
 F
 static/css/writing.css,5\2\528a0dd9a60cdfd35dbe09325e7274c8fe620ec3
+D
+static/js/scripts.js,4\d\4dc6053ee96817d0caa0ea943ea6d475fa3593b2
