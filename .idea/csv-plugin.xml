@@ -17,6 +17,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\templates\Books.html">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\templates\Services.html">
           <value>
             <Attribute>
