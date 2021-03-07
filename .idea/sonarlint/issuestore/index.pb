@@ -37,3 +37,7 @@ F
 static/css/writing.css,5\2\528a0dd9a60cdfd35dbe09325e7274c8fe620ec3
 D
 static/js/scripts.js,4\d\4dc6053ee96817d0caa0ea943ea6d475fa3593b2
+C
+static/css/book.css,5\b\5b9a7245f942789fc42cf01f48c9334f722dcaf2
+F
+static/css/Service.css,6\9\694e16f6b62f4164af84739dbc5a51e131a69115
