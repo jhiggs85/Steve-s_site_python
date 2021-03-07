@@ -37,16 +37,16 @@ p {
     float: left;
     border-radius: 10px;
 }
-
+/*
 h2 {
     font-size: 18px;
     margin: -20px -500px 20px;
     padding: 0px 500px 0px;
 }
+*/
 
 
-
-div {
+servicediv {
 position: relative;
 margin-top: 5%;
 margin-bottom: 5%;
