@@ -9,7 +9,7 @@ body {
     letter-spacing: 1px;
 }
 
-img {
+.service {
     padding-left: 2%;
     margin: 4% 5% 5% 3%;
     float: left;
@@ -48,7 +48,6 @@ h2 {
 
 div {
 position: relative;
-top: 10%;
 margin-top: 5%;
 margin-bottom: 5%;
 }
