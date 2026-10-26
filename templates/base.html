@@ -1,113 +1,78 @@
+{%- set nav = [
+    ('homepage',   'Home',            '/'),
+    ('about',      'О переводчике',   '/about'),
+    ('background', 'Background',      '/background'),
+    ('sample',     'Writing Sample',  '/sample'),
+    ('services',   'Services',        '/Services'),
+    ('books',      'Books',           '/Books'),
+    ('contact',    'Contact',         '/contact'),
+] -%}
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{% block lang %}en{% endblock %}">
 <head>
-      {% if Title == 'MCGRATH TRANSLATIONS' %}
-    <link rel="stylesheet" href="/static/css/homepage.css" type="text/css">
-       {% endif %}
-
-    {% if Title == 'О ПЕРЕВОДЧИКЕ' %}
-    <link rel="stylesheet" href="/static/css/about.css" type="text/css">
-       {% endif %}
-
-    {% if Title == 'Background' %}
-    <link rel="stylesheet" href="/static/css/background.css" type="text/css">
-       {% endif %}
-
-    {% if Title == 'Contact' %}
-   <link rel="stylesheet" href="/static/css/contact.css" type="text/css">
-       {% endif %}
-
-    {% if Title == 'Sample' %}
-     <link rel="stylesheet" href="/static/css/writing.css" type="text/css">
-       {% endif %}
-
-
-    {% if Title == 'Services' %}
-     <link rel="stylesheet" href="/static/css/Service.css" type="text/css">
-       {% endif %}
-
-    {% if Title == 'Books' %}
-     <link rel="stylesheet" href="/static/css/book.css" type="text/css">
-       {% endif %}
-
     <meta charset="UTF-8">
-    <title>{{Title}}</title>
-     <!-- <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>-->
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="/static/css/styles.css" rel="stylesheet" type="text/css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% block title %}{{ Title }}{% endblock %} | Steven McGrath, Russian to English Translator</title>
+    <meta name="description" content="{% block description %}Steven McGrath is an ATA-certified Russian to English translator specializing in literary and legal translation and app localization.{% endblock %}">
+
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="McGrath Translations">
+    <meta property="og:title" content="{{ Title }} | Steven McGrath, Russian to English Translator">
+    <meta property="og:description" content="{{ self.description() }}">
+    <meta property="og:url" content="{{ site_url }}{{ request.path }}">
+    <meta property="og:image" content="{{ site_url }}/static/images/steven-mcgrath.jpg">
+    <link rel="canonical" href="{{ site_url }}{{ request.path }}">
+
+    <link rel="icon" href="/static/images/favicon.ico">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@500;700&family=Mulish:ital,wght@0,400;0,800;1,400;1,800&display=swap" rel="stylesheet">
+
+    <!-- Theme (Start Bootstrap "Resume", includes Bootstrap 4) + site styles -->
+    <link href="/static/css/styles.css" rel="stylesheet">
+    <link href="/static/css/site.css" rel="stylesheet">
 </head>
 <body>
 
- <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+<a class="skip-link" href="#main">Skip to content</a>
 
-     <h3>Steven McGrath</h3>
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary" id="sideNav">
+    <div class="site-id">
+        <p class="site-name">Steven McGrath</p>
+        <p class="site-tagline">ATA-Certified Russian to English Translator</p>
+        <p class="site-tagline" lang="ru">Переводы с русского на английский</p>
+    </div>
 
-     <h5><b> ATA-Certified Russian to English Translator</b></h5>
-            <h5>Переводы с русского на английский</h5>
+    <a class="navbar-brand d-none d-lg-block" href="/">
+        <img class="img-fluid img-profile rounded-circle mx-auto" src="/static/images/steven-mcgrath.jpg" alt="Steven McGrath">
+    </a>
 
-            <a class="navbar-brand js-scroll-trigger" href="#page-top">
-                <span class="d-block d-lg-none">Steve McGrath</span>
-                <span class="d-none d-lg-block three"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="/static/images/resize.JPG" alt="" /></span>
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav">
-    {% if Title != 'MCGRATH TRANSLATIONS' %}
-             <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="/">HOME</a>
-                 </li>
-             {% endif %}
-     {% if Title != 'О ПЕРЕВОДЧИКЕ' %}
-                     <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="/about">О ПЕРЕВОДЧИКЕ</a>
-                     </li>
- {% endif %}
-     {% if Title != 'Background' %}
-                     <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="/background">BACKGROUND</a>
-                         </li>
- {% endif %}
-                     <li class="nav-item">
-     {% if Title != 'Sample' %}
-            <a class="nav-link js-scroll-trigger" href="/sample">WRITING SAMPLE</a>
-                         </li>
- {% endif %}
+    <button class="navbar-toggler" type="button" aria-controls="siteNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
 
-     {% if Title != 'Services' %}
-                     <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="/Services">SERVICES</a>
-                         </li>
- {% endif %}
-     {% if Title != 'Books' %}
-                     <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="/Books">BOOKS</a>
-                         </li>
- {% endif %}
-                    {% if Title != 'Contact' %}
-                     <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="/contact">CONTACT</a>
-                     </li>
- {% endif %}
-                    </ul>
-</div>
- </nav>
+    <div class="collapse navbar-collapse" id="siteNav">
+        <ul class="navbar-nav">
+            {%- for endpoint, label, href in nav %}
+            <li class="nav-item">
+                <a class="nav-link{% if request.endpoint == endpoint %} active{% endif %}" href="{{ href }}"
+                   {%- if request.endpoint == endpoint %} aria-current="page"{% endif %}
+                   {%- if endpoint == 'about' %} lang="ru"{% endif %}>{{ label }}</a>
+            </li>
+            {%- endfor %}
+        </ul>
+    </div>
+</nav>
 
-<div>
-{% block content %}
-    {% endblock %}
+<main id="main" class="page page-{{ request.endpoint }}">
+{% block content %}{% endblock %}
+</main>
 
-</div>
+<footer class="site-footer">
+    <p>&copy; {{ year }} Steven McGrath &middot; <a href="/contact">Contact</a></p>
+</footer>
 
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Third party plugin JS-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="/static/js/scripts.js"></script>
-
+<script src="/static/js/scripts.js"></script>
 </body>
 </html>

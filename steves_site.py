@@ -1,37 +1,35 @@
+"""McGrath Translations site.
+
+Flask is used for templating and local preview only. `python freeze.py`
+renders every page to plain HTML in build/, which is what gets deployed
+(see .github/workflows/deploy.yml).
+
+Local preview:  python steves_site.py   ->  http://localhost:5000
+"""
+import datetime
 import os
+
 from flask import Flask, render_template
-from flask_talisman import Talisman
+
 app = Flask(__name__)
-csp = {
-    'default-src': [
-        '\'self\'',
-        'https://*',
-        '*.w3.org',
-        '\'unsafe-inline\'',
-            ],
-        'img-src': '*',
-        'style-src': [
-            '\'self\'',
-            'https://*',
-            '\'unsafe-inline\'',
-    ],
-    'script-src': [
-        '\'self\'',
-        'https://*',
-        '\'unsafe-inline\'',
-    ],
-}
-Talisman(app, content_security_policy=csp, content_security_policy_nonce_in=['script-src', 'style-src'])
+
+# Public address of the site, used for canonical / social-preview URLs.
+SITE_URL = os.environ.get("SITE_URL", "https://www.mcgrathtranslations.com").rstrip("/")
+
+
+@app.context_processor
+def site_globals():
+    return {"year": datetime.date.today().year, "site_url": SITE_URL}
 
 
 @app.route('/')
 def homepage():
-    return render_template('homepage.html', Title='MCGRATH TRANSLATIONS')
+    return render_template('homepage.html', Title='Home')
 
 
 @app.route('/about')
 def about():
-    return render_template('about.html', Title='О ПЕРЕВОДЧИКЕ')
+    return render_template('about.html', Title='О переводчике')
 
 
 @app.route('/background')
@@ -46,19 +44,24 @@ def contact():
 
 @app.route('/sample')
 def sample():
-    return render_template('sample.html', Title='Sample')
+    return render_template('sample.html', Title='Writing Sample')
 
 
 @app.route('/Services')
 def services():
-    return render_template('Services.html', Title='Services', Page='Services')
+    return render_template('Services.html', Title='Services')
 
 
 @app.route('/Books')
 def books():
-    return render_template('Books.html', Title='Books', Page='Books')
+    return render_template('Books.html', Title='Books')
+
+
+@app.errorhandler(404)
+def not_found(_):
+    return render_template('404.html', Title='Page not found'), 404
 
 
 if __name__ == '__main__':
     port = int(os.environ.get("PORT", 5000))
-    app.run(debug=False, host='0.0.0.0', port=port)
+    app.run(debug=True, host='127.0.0.1', port=port)
